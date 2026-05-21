@@ -40,22 +40,8 @@
     }
   ],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "Main Deck",
-  "gameStartHandCount": 4,
-  "deckPositions": [
-    {
-      "name": "Main Deck Zone",
-      "filterProperty": "type",
-      "filterValue": "Card",
-      "position": { "x": -2.0, "y": 0.0, "z": 0.0 }
-    },
-    {
-      "name": "Shard Deck Zone",
-      "filterProperty": "type",
-      "filterValue": "Shard",
-      "position": { "x": 2.0, "y": 0.0, "z": 0.0 }
-    }
-  ],
+  "gamePlayDeckName": "Deck",
+  "gameStartHandCount": 5,
   "deckUrls": [],
   "gameStartDecks": []
 }

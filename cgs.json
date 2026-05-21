@@ -1,0 +1,58 @@
+{
+  "name": "Fractured Realms",
+"allCardsUrl": "http://localhost:8080/AllCards.json",
+  "allSetsUrl": "http://localhost:8080/AllSets.json",
+  "autoUpdateUrl": "http://localhost:8080/cgs.json",
+  "cardImageUrl": "http://localhost:8080/Art/Cards/{cardId}.jpg",
+  "cardSize": {
+    "x": 2.0,
+    "y": 3.0
+  },
+  "cardPrimaryProperty": "suit",
+  "cardProperties": [
+    {
+      "name": "type",
+      "display": "Type",
+      "type": "stringEnum"
+    },
+    {
+      "name": "suit",
+      "display": "Suit",
+      "type": "stringEnum"
+    },
+    {
+      "name": "rank",
+      "display": "Rank",
+      "type": "integer"
+    }
+  ],
+  "enums": [
+    {
+      "property": "type",
+      "values": {
+        "0x1": "Single",
+        "0x2": "Double"
+      }
+    },
+    {
+      "property": "suit",
+      "values": {
+        "0x1": "0",
+        "0x2": "1",
+        "0x4": "2",
+        "0x8": "3",
+        "0x10": "4",
+        "0x20": "5",
+        "0x40": "6",
+        "0x80": "7",
+        "0x100": "8",
+        "0x200": "9"
+      }
+    }
+  ],
+  "gameDefaultCardAction": "rotate",
+  "gamePlayDeckName": "Stock",
+  "gameStartHandCount": 4,
+  "deckUrls": [],
+  "gameStartDecks": []
+}

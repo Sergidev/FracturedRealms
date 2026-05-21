@@ -25,20 +25,22 @@
   ],
   "enums": [],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "Main Deck",
+  "gamePlayDeckName": "Stock",
   "gameStartHandCount": 4,
-  "deckPositions": [
+  "deckContainers": [
     {
-      "name": "Main Deck",
+      "name": "Main Deck Zone",
       "filterProperty": "type",
       "filterValue": "Card",
-      "position": { "x": -2.0, "y": 0.0, "z": 0.0 }
+      "position": { "x": -2.0, "y": 0.0, "z": 0.0 },
+      "createDeck": true
     },
     {
-      "name": "Shard Deck",
+      "name": "Shard Deck Zone",
       "filterProperty": "type",
       "filterValue": "Shard",
-      "position": { "x": 2.0, "y": 0.0, "z": 0.0 }
+      "position": { "x": 2.0, "y": 0.0, "z": 0.0 },
+      "createDeck": true
     }
   ],
   "deckUrls": [],

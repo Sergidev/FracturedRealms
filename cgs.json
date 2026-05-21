@@ -10,17 +10,22 @@
     "x": 2.0,
     "y": 3.0
   },
-  "cardPrimaryProperty": "set",
+"cardPrimaryProperty": "set",
   "cardProperties": [
     {
       "name": "set",
       "display": "Set",
       "type": "string"
+    },
+    {
+      "name": "type",
+      "display": "Card Type",
+      "type": "string"
     }
   ],
   "enums": [],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "Stock",
+  "gamePlayDeckName": "",
   "gameStartHandCount": 4,
   "deckSlots": [
     {

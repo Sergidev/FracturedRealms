@@ -4,7 +4,7 @@
   "allSetsUrl": "https://sergidev.github.io/FracturedRealms/AllSets.json",
   "autoUpdateUrl": "https://sergidev.github.io/FracturedRealms/cgs.json",
   "bannerImageUrl": "https://sergidev.github.io/FracturedRealms/Banner.png",
-  "cardBackImageUrl": "https://sergidev.github.io/FracturedRealms/CardBack.png.json",
+  "cardBackImageUrl": "https://sergidev.github.io/FracturedRealms/CardBack.png",
   "cardImageUrl": "https://sergidev.github.io/FracturedRealms/Art/Cards/{cardId}.jpg",
   "cardSize": {
     "x": 2.0,

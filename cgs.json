@@ -25,22 +25,28 @@
   ],
   "enums": [],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "",
+  "gamePlayDeckName": "Main Deck",
   "gameStartHandCount": 4,
-  "deckSlots": [
+  "deckUrls": [
     {
       "name": "Main Deck",
-      "filterProperty": "type",
-      "filterValue": "Card",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Main.txt"
+    },
+    {
+      "name": "Shard Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Shards.txt"
+    }
+  ],
+  "gameStartDecks": [
+    {
+      "name": "Main Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Main.txt",
       "position": { "x": -2.0, "y": 0.0, "z": 0.0 }
     },
     {
       "name": "Shard Deck",
-      "filterProperty": "type",
-      "filterValue": "Shard",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Shards.txt",
       "position": { "x": 2.0, "y": 0.0, "z": 0.0 }
     }
-  ],
-  "deckUrls": [],
-  "gameStartDecks": []
+  ]
 }

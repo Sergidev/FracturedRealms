@@ -22,6 +22,25 @@
   "gameDefaultCardAction": "rotate",
   "gamePlayDeckName": "Stock",
   "gameStartHandCount": 4,
-  "deckUrls": [],
+  "deckUrls": [
+    {
+      "name": "Main Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Main.txt"
+    },
+    {
+      "name": "Shards Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Shards.txt"
+    }
+  ],
+  "gameStartDecks": [
+    {
+     "name": "Main Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Main.txt"
+    },
+    {
+      "name": "Shards Deck",
+      "url": "https://sergidev.github.io/FracturedRealms/decks/Shards.txt"
+    }
+  ],
   "gameStartDecks": []
 }

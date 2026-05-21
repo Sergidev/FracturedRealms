@@ -23,39 +23,11 @@
       "type": "stringEnum"
     }
   ],
-  "enums": [
-    {
-      "property": "set",
-      "values": {
-        "0x1": "ArcaneSupremacy",
-        "0x2": "TheHolyKingdom"
-      }
-    },
-    {
-      "property": "type",
-      "values": {
-        "0x1": "Card",
-        "0x2": "Shard"
-      }
-    }
-  ],
+  "enums": [],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "Stock",
-  "gameStartHandCount": 4,
-  "deckPositions": [
-    {
-      "name": "Main Deck Zone",
-      "filterProperty": "type",
-      "filterValue": "Card",
-      "row": 0
-    },
-    {
-      "name": "Shard Deck Zone",
-      "filterProperty": "type",
-      "filterValue": "Shard",
-      "row": 1
-    }
-  ],
+  "gamePlayDeckName": "Deck",
+  "gameStartHandCount": 5,
+  "deckPositions": [],
   "deckUrls": [],
   "gameStartDecks": []
 }

@@ -10,7 +10,7 @@
     "x": 2.0,
     "y": 3.0
   },
-"cardPrimaryProperty": "set",
+  "cardPrimaryProperty": "set",
   "cardProperties": [
     {
       "name": "set",
@@ -42,20 +42,18 @@
   "gameDefaultCardAction": "rotate",
   "gamePlayDeckName": "Main Deck",
   "gameStartHandCount": 4,
-  "deckContainers": [
+  "deckPositions": [
     {
       "name": "Main Deck Zone",
       "filterProperty": "type",
       "filterValue": "Card",
-      "position": { "x": -2.0, "y": 0.0, "z": 0.0 },
-      "createDeck": true
+      "position": { "x": -2.0, "y": 0.0, "z": 0.0 }
     },
     {
       "name": "Shard Deck Zone",
       "filterProperty": "type",
       "filterValue": "Shard",
-      "position": { "x": 2.0, "y": 0.0, "z": 0.0 },
-      "createDeck": true
+      "position": { "x": 2.0, "y": 0.0, "z": 0.0 }
     }
   ],
   "deckUrls": [],

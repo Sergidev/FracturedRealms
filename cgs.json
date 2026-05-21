@@ -40,7 +40,7 @@
     }
   ],
   "gameDefaultCardAction": "rotate",
-  "gamePlayDeckName": "Stock",
+  "gamePlayDeckName": "Deck",
   "gameStartHandCount": 4,
   "deckContainers": [
     {

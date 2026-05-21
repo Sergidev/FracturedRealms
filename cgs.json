@@ -11,19 +11,34 @@
     "y": 3.0
   },
 "cardPrimaryProperty": "set",
-  "cardProperties": [
+"cardProperties": [
     {
       "name": "set",
       "display": "Set",
-      "type": "string"
+      "type": "stringEnum"
     },
     {
       "name": "type",
       "display": "Card Type",
-      "type": "string"
+      "type": "stringEnum"
     }
   ],
-  "enums": [],
+  "enums": [
+    {
+      "property": "set",
+      "values": {
+        "0x1": "ArcaneSupremacy",
+        "0x2": "TheHolyKingdom"
+      }
+    },
+    {
+      "property": "type",
+      "values": {
+        "0x1": "Card",
+        "0x2": "Shard"
+      }
+    }
+  ],
   "gameDefaultCardAction": "rotate",
   "gamePlayDeckName": "Stock",
   "gameStartHandCount": 4,

@@ -10,22 +10,12 @@
     "x": 2.0,
     "y": 3.0
   },
-  "cardPrimaryProperty": "suit",
+  "cardPrimaryProperty": "set",
   "cardProperties": [
     {
-      "name": "type",
-      "display": "Type",
-      "type": "stringEnum"
-    },
-    {
-      "name": "suit",
-      "display": "Suit",
-      "type": "stringEnum"
-    },
-    {
-      "name": "rank",
-      "display": "Rank",
-      "type": "integer"
+      "name": "set",
+      "display": "Set",
+      "type": "string"
     }
   ],
   "enums": [

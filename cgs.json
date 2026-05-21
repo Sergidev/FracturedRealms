@@ -18,30 +18,7 @@
       "type": "string"
     }
   ],
-  "enums": [
-    {
-      "property": "type",
-      "values": {
-        "0x1": "Single",
-        "0x2": "Double"
-      }
-    },
-    {
-      "property": "suit",
-      "values": {
-        "0x1": "0",
-        "0x2": "1",
-        "0x4": "2",
-        "0x8": "3",
-        "0x10": "4",
-        "0x20": "5",
-        "0x40": "6",
-        "0x80": "7",
-        "0x100": "8",
-        "0x200": "9"
-      }
-    }
-  ],
+  "enums": [],
   "gameDefaultCardAction": "rotate",
   "gamePlayDeckName": "Stock",
   "gameStartHandCount": 4,

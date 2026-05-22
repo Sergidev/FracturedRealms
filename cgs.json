@@ -7,8 +7,8 @@
   "cardBackImageUrl": "https://sergidev.github.io/FracturedRealms/CardBack.png",
   "cardImageUrl": "https://sergidev.github.io/FracturedRealms/Art/Cards/{cardId}.jpg",
   "cardSize": {
-    "x": 2.0,
-    "y": 3.0
+    "x": 2.5,
+    "y": 3.5
   },
   "cardPrimaryProperty": "set",
   "cardProperties": [
